@@ -25,7 +25,7 @@ const NodeContainer = ({ item }) => {
   return (
       <div className='flex  items-center bg-white p-2 border-y drop-shadow-sm border-t-0 rounded-t-sm
       text-sm text-gray-300 '>
-        <div className='flex justify-end w-24'>
+        <div className='flex justify-end w-24 flex-shrink-0'>
           <p className='text-sm text-gray-300'>{item}</p> 
         </div>
 

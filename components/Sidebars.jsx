@@ -7,10 +7,6 @@ import Community from './Community'
 
 
 const Sidebars = () => {
-  const baseStyle = 'bg-white w-64 p-2'
-  const topStyle = 'bg-white w-64 p-2 border-y drop-shadow-sm border-t-0 rounded-t-sm'
-  const midStyle = 'bg-white w-64 p-2 border-y drop-shadow-sm border-t-0'
-  const bottomStyle = 'bg-white w-64 p-2 rounded-b-sm drop-shadow'
 
   return (
     <div id='sidebar-container' className='flex flex-col gap-5 ml-5'>

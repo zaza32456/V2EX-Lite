@@ -47,11 +47,13 @@ const Footer = () => {
               </span> 
             </div>
             
+            <div className='flex-shrink-0'>
               <Image 
                 src='/images/do_logo.png'
                 width={164}
                 height={28}
                 alt='logo'/>
+            </div>
 
           </div>
 
