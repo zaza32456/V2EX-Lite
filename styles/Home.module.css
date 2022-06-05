@@ -1,5 +1,9 @@
+.body {
+  background-color: #0070f3;
+}
+
 .container {
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 .main {
