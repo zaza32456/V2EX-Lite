@@ -20,7 +20,7 @@ const Sidebars = () => {
       <SideCell title='最近新增节点'/>
       <Community />
 
-    </div>
+     </div>
   )
 }
 
