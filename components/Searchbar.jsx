@@ -7,7 +7,7 @@ const Searchbar = () => {
   return (
     <div id='search-container' 
       className={`flex pl-2 h-7 w-60 ml-2 justify-start items-center rounded-full
-      bg-gray-50  ${onFocus? 'border-2 border-gray-600' : ''}`}
+      bg-gray-50  ${onFocus? 'border-x border-y border-gray-600' : ''}`}
       >
       <Image 
         src='/images/search@light.png'

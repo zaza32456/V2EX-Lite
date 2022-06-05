@@ -5,7 +5,7 @@ import Topic from './Topic'
 
 const Article = () => {
   return (
-    <div className='w-9/12 min-w-128 max-w-160'>
+    <div className='w-9/12 min-w-128 max-w-184'>
 
       <Navbar />
       <NavbarLite />

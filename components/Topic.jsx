@@ -23,12 +23,15 @@ const Topic = ( { topicLink, topicContext } ) => {
 
       {/* 头像栏 */}
       <div id='avatar-container' className='h-12 flex-shrink-0'>
-        <Image 
-          src='/images/avatar.jpg'
-          width={48}
-          height={48}
-          alt='avatar'
-          className='rounded-sm'/>
+        <Link href='/'>
+          <Image 
+            src='/images/avatar.jpg'
+            width={48}
+            height={48}
+            alt='avatar'
+            className='rounded-sm'/>
+        </Link>
+
       </div>
 
       {/* 主题栏 ： 主标题 + 主题信息 */}

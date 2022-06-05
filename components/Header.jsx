@@ -2,7 +2,22 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import Searchbar from './Searchbar';
-import Tool from './Tool';
+
+// —————————————— 辅助组件 —————————————— 
+  //  首页右上角侧菜单栏
+const Tool = ({ href, text }) => {
+  return (
+    <Link 
+      href={href} >
+      <a className='ml-2 text-gray-800 
+        hover:text-gray-400'>
+        {text}
+      </a>
+    </Link>
+  )
+}
+
+// —————————————— 主体组件 ——————————————
 
 const Header = () => {
   return (
@@ -20,7 +35,6 @@ const Header = () => {
                   className=''/>
               </a>
             </Link>
-            {/* TODO:搜索框继承阴影 */}
             <Searchbar />
         </div>
           

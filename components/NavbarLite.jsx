@@ -16,7 +16,7 @@ const Keyword = ({ context, href }) => {
 
 const NavbarLite = () => {
   return (
-    <div className='flex flex-wrap bg-gray-50 pl-4 pr-2 py-2 w-full rounded-t-sm border-y border-t-0'>
+    <div className='flex flex-wrap bg-gray-50 pl-4 pr-2 py-2 w-full  border-y border-t-0'>
       <Keyword context='獭獭' href=''/>
       <Keyword context='獭獭' href=''/>
       <Keyword context='獭獭' href=''/>
